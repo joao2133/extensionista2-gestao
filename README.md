@@ -44,7 +44,7 @@ O projeto foi construído focando em desempenho e acessibilidade, utilizando tec
 
 ## 📸 Screenshots (Evidências)
 
-| Tela Desktop | Tela Mobile |
+| Tela 1 | Tela 2 |
 |:---:|:---:|
 | <img src="prints/print1.png" width="400"> | <img src="prints/print2.png" width="400"> |
 
