@@ -1,0 +1,153 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Layout */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #003366; /* Azul Uninter */
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Intro */
+.intro {
+    text-align: center;
+    margin-bottom: 3rem;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Grid de Cursos */
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: 3rem;
+}
+
+/* Estilo do Cartão (Card) */
+.card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+}
+
+/* Cores específicas para cada categoria */
+.basic { background: linear-gradient(45deg, #FF512F, #DD2476); }
+.excel { background: linear-gradient(45deg, #1D976C, #93F9B9); }
+.logic { background: linear-gradient(45deg, #2b5876, #4e4376); }
+.data { background: linear-gradient(45deg, #F09819, #EDDE5D); }
+.python { background: linear-gradient(45deg, #3CA55C, #B5AC49); }
+.market { background: linear-gradient(45deg, #4776E6, #8E54E9); }
+
+.card-body {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body h3 {
+    margin-bottom: 5px;
+    color: #003366;
+}
+
+.provider {
+    font-size: 0.85rem;
+    color: #666;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.card-body p {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+/* Botão */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #00509e;
+}
+
+/* Rodapé */
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: auto;
+}
+
+/* MEDIA QUERIES - Ajustes para Mobile */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .intro {
+        padding: 15px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+}
