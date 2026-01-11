@@ -18,13 +18,29 @@ Acesse o projeto funcionando clicando no link abaixo:
 Este projeto foi desenvolvido como parte da disciplina de **Atividade Extensionista II** do curso de **Gestão da Tecnologia da Informação** do Centro Universitário Internacional **UNINTER**.
 
 ### 🎯 Objetivo
-O objetivo principal é promover a **inclusão digital** e democratizar o acesso ao ensino de tecnologia. O site atua como um hub centralizador (catálogo), reunindo os melhores cursos gratuitos de plataformas renomadas, facilitando a busca para jovens e adultos que desejam ingressar no mercado de TI sem custos.
+O objetivo principal é promover a **inclusão digital** e democratizar o acesso ao ensino de tecnologia para a comunidade de Peruíbe-SP. O site atua como um hub centralizador (catálogo), reunindo os melhores cursos gratuitos de plataformas renomadas, facilitando a busca para jovens e adultos que desejam ingressar no mercado de TI sem custos.
 
 ### 📚 Conteúdo Agregado
 O catálogo seleciona e organiza cursos das seguintes plataformas:
 *   **Fundação Bradesco** (Excel e Segurança Digital)
 *   **Microsoft Learn** (Inteligência Artificial)
 *   **Curso em Vídeo** (Algoritmos, Hardware, Python, etc.)
+
+---
+
+## 📐 Metodologia e Modelagem
+
+Para garantir a organização e o funcionamento correto da aplicação, o projeto seguiu etapas estruturadas de planejamento e modelagem de software.
+
+### 1. Fluxo de Desenvolvimento
+O projeto foi executado em 4 fases principais, desde o levantamento de requisitos até a implantação final:
+
+<img src="diagramas/metodologia.png" alt="Fluxograma de Metodologia" width="800">
+
+### 2. Diagrama de Caso de Uso (UML)
+A interação do usuário com o sistema foi projetada para ser simples e direta, funcionando como uma ponte entre o aluno e as plataformas de ensino:
+
+<img src="diagramas/diagrama2.png" alt="Diagrama de Caso de Uso UML" width="600">
 
 ---
 
@@ -44,7 +60,9 @@ O projeto foi construído focando em desempenho e acessibilidade, utilizando tec
 
 ## 📸 Screenshots (Evidências)
 
-| Print 1 | Print 2 |
+Abaixo, capturas de tela do projeto em funcionamento:
+
+| Tela Inicial | Grade de Cursos |
 |:---:|:---:|
 | <img src="prints/print1.png" width="400"> | <img src="prints/print2.png" width="400"> |
 
